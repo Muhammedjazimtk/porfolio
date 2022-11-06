@@ -27,8 +27,9 @@ function App() {
     <div class="flex flex-col h-screen bg-black m-0">
     {/*header*/}  
       <div className='flex w-screen min-h-[50px] fixed z-10 '>
-        <div className='flex justify-start items-center p-9 w-1/2'>
-          <a href='#'><h3 className='text-[#EA047E] font-semibold'>Home</h3></a>
+        <div className='flex justify-start items-center p-9 w-1/2 group-hover:opacity-100 transition duration-200'>
+        <div className='bg-pink-600 h-12 w-12 absolute rounded-lg blur-lg opacity-75 '></div>
+          <a href='#'><img alt='' src='./images/favicon-32x32.png' className='relative h-12 w-12 '></img></a>
         </div>
         <div className='flex justify-end w-1/2 items-center gap-5 mr-10'>
           <h3 className='text-[#EA047E] font-semibold pr-10'><a href='#about'>About</a></h3>
