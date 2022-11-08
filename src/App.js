@@ -65,7 +65,7 @@ function App() {
       <div className='bg-black h-screen pb-10'>
         <div className='flex justify-center items-center' id='about'>
           <div className='flex gap-12'>
-            <img src='./images/image.png' className='rounded-xl transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 shadow-lg' alt='' width={300}></img>
+            <img src='./images/p.png' className='rounded-xl transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 shadow-lg' alt='' width={300}></img>
             <div className='flex flex-col'>
               <p className='text-white text-sm'> A BIT ABOUT ME</p>
               <p className='text-white text-sm '>Curerently, I'm a student at <span className='font-extrabold underline'>Cochin University of Science And Technology.</span><br></br> I'm a passionate <span className='font-extrabold underline'>Web Developer</span> who loves to learn new Technologies </p>
